@@ -27,7 +27,8 @@ $$    $$/ $$    $$/         $$    $$/ $$       |$$       |$$ | $$  |$$ |$$ |$$ |
     if choice_function == '1':
         jd_seckill.reserve()
     elif choice_function == '2':
-        jd_seckill.seckill_by_proc_pool()
+        jd_seckill.seckill_by_proc_pool(work_count=6)
+        # jd_seckill.seckill()
     else:
         print('没有此功能')
         sys.exit(1)
